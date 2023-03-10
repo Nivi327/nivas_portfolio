@@ -5,6 +5,7 @@
     z-index:999;
     height: 4rem;
     margin-bottom: 3rem;
+    transition: 0.2s ease-out;
 }
 
 .mobile .hamburger {
@@ -22,6 +23,10 @@
 
 .mobile .show-mobile-content {
     display:block;
+}
+
+.line {
+    color: #181818;
 }
 
 .navigation {
@@ -123,7 +128,9 @@ a span {
     display: flex;
     flex-direction: row;
     gap: 0.7rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #282828;
 }
 
 .icons a {
