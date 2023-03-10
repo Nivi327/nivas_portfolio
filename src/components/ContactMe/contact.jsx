@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 
 const Contact = () => {
-    const form = useRef();
+    const form2 = useRef();
     const clearFields = () => {
         document.getElementById('name').value = "";
         document.getElementById('email').value = "";
@@ -12,8 +12,7 @@ const Contact = () => {
     }
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(form.current);
-        emailjs.sendForm('service_portfolio', 'template_ljmxpt4', e.target, 'pLKp295GbvzAIxp6a')
+        emailjs.sendForm('service_portfolio', 'template_ljmxpt4', form2.current, 'pLKp295GbvzAIxp6a')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -25,7 +24,7 @@ const Contact = () => {
             <h3>Contact Me</h3>
             <span>Please don't hesitate to use the form, to get in touch with me.</span>
         </div>
-        <form ref={form} className={classes.form} onSubmit={sendEmail}>
+        <form ref={form2} className={classes.form} onSubmit={sendEmail}>
             <div className={classes['name-email']}>
                 <input type="text" name='name' id='name' placeholder='Enter Your Name' autoComplete='off'/>
                 <input type="email" name="email" id="email" placeholder='Enter Your Email' autoComplete='off'/>
