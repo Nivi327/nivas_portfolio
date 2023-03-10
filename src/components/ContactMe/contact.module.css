@@ -4,6 +4,46 @@
     margin-top: 10%;
 }
 
+.contact .sent {
+    background-color: #181818;
+    padding: 0.9rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.contact .error {
+    background-color: #181818;
+    padding: 0.9rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.sent p {
+    padding: 0;
+    margin: 0;
+    color: rgb(162, 254, 162);
+}
+
+.error p {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 129, 129);
+}
+
 .h3 h3 {
     font-size: 2.7rem;
     color: aqua;
@@ -95,6 +135,10 @@
         width: 80%;
         margin-top: 9%;
     }
+    .contact .sent,
+    .contact .error {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:786px) and (min-width:560px) {
@@ -103,6 +147,10 @@
         margin-top: 9%;
         margin-bottom: 4rem;
     }
+    .contact .sent,
+    .contact .error {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width:560px) {
@@ -110,6 +158,11 @@
         width: 95%;
         margin-top: 9%;
         margin-bottom: 4rem;
+    }
+
+    .contact .sent,
+    .contact .error {
+        font-size: 1.2rem;
     }
 
     .name-email {
