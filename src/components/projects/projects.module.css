@@ -1,0 +1,90 @@
+.basic {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.good-view {
+    margin-top: 0.5rem;
+    color: rgba(211, 211, 211, 0.797);
+    margin-left: 9%;
+    font-size: 1.7rem;
+}
+
+.basic h3 {
+    margin-top: 0;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    color: aqua;
+    font-size: 2.5rem;
+}
+
+.basic ul {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2.5rem;
+    list-style-type: none;
+}
+
+.basic ul li {
+    background-color: rgba(62, 62, 62, 0.425);
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 40%;
+    transition: 0.2s ease-out;
+    color: whitesmoke;
+}
+
+.basic ul li:hover {
+    -webkit-box-shadow: 1px 3px 11px 0px rgba(204, 204, 204, 0.39);
+    -moz-box-shadow: 1px 3px 11px 0px rgba(204, 204, 204, 0.39);
+    box-shadow: 1px 3px 11px 0px rgba(204, 204, 204, 0.39);
+    z-index: 10;
+    transform: scale(1.02);
+}
+
+.basic ul li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: aqua;
+    cursor: pointer;
+}
+
+.basic ul li p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:1080px) and (min-width:840px) {
+    .good-view{
+        margin-top: 4rem;
+        margin-left: 2%;
+    }
+    .basic {
+        width: 95%;
+        margin-top: 2.2rem;
+        margin-bottom: 4rem;
+    }
+    .basic ul{
+        gap: 2rem;
+    }
+    .basic ul li {
+        width:60%;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .good-view{
+        margin-top: 4rem;
+        margin-left: 4.5%;
+    }
+    .basic {
+        width: 90%;
+        margin-top: 2.2rem;
+        margin-bottom: 4rem;
+    }
+    .basic ul li {
+        width:95%;
+    }
+}

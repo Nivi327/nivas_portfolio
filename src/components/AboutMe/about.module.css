@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.heading {
+    font-size: 3rem;
+    color: aqua;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.about a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.about .para a {
+    border: 1px solid aqua;
+    background-color: transparent;
+    color: aqua;
+    cursor: pointer;
+    padding: 0.9rem 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    transition: ease-in-out 0.5s;
+}
+
+.about .para a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.about:last-child {
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:1080px) {
+    .about {
+        width: 95%;
+        margin-bottom: 4rem;
+    }
+}
