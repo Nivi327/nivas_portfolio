@@ -54,3 +54,9 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width:560px) {
+    .list {
+        width: 90%;
+    }
+}
