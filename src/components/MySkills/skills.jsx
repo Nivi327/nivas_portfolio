@@ -32,6 +32,7 @@ const Skills = () => {
             <span className={classes.heading}>Other Skills</span>
             <ul>
                 <li>Git & GitHub</li>
+                <li>PostMan</li>
                 <li>Vercel</li>
                 <li>FireBase</li>
             </ul>
