@@ -49,7 +49,7 @@ const Projects = () => {
                         <img src={CityLookUpImg} alt="city_search" />
                         <a>City Search</a>
                     </a>
-                    <p>Designed a website to search for the cities in India along with their Latitudes and Longitueds.</p>
+                    <p>Designed a website to search for the Latitudes and Longitudes of the cities in India.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
