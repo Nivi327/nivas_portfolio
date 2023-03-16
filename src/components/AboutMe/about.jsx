@@ -3,7 +3,7 @@ import classes from './about.module.css';
 
 const About = () => {
     return <div className={classes.about}>
-        <span className={classes.heading}>About Me: </span>
+        <span className={classes.heading}>About Me</span>
         <p>
             I am a MERN Stack Developer located in AndhraPradesh, India.
             I have a serious passion in creating a new UI with dynamic user experience using ReactJS, NodeJS 
