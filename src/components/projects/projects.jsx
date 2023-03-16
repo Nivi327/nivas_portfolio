@@ -11,7 +11,6 @@ const Projects = () => {
     return <div className={classes.projects}>
         <h2 className={classes['good-view']}>*Click on the project names to view my projects*</h2>
         <div className={classes.basic}>
-            <h3>React Based Projects</h3>
             <ul>
                 <li>
                     <a href='https://food-order-app-ruby-seven.vercel.app/' target='_blank'>
@@ -26,41 +25,40 @@ const Projects = () => {
                         <img src={TodoImg} alt="TodoApp" />
                         <a>Todo List App</a>
                     </a>
-                    <p>Designed a simple todolist to plan the day perfectly.</p>
+                    <p>Designed a TODO list app to plan the day perfectly and implemented using Local Storage.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
-            </ul>
-        </div>
-        <div className={classes.basic}>
-            <h3>HTML and CSS Based Projects</h3>
-            <ul>
                 <li>
                     <a href='https://nivi327.github.io/ContactListFiltering/' target='_blank'>
                         <img src={ContactImg} alt="ContactList" />
                         <a>Contact List</a>
                     </a>
-                    <p>In this website we can create and add contacts to their respective starting alphabet and can filter them.</p>
+                    <p>Designed a contact list app to add and maintain the contacts of out closet persons.</p>
+                    <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
                     <a href='https://nivi327.github.io/BookListApp/' target='_blank'>
                         <img src={BooksImg} alt="BooksList" />
                         <a>Book List App</a>
                     </a>
-                    <p>In this website we can add the details of our favourite book and can view it later in the same browser in that device.</p>
+                    <p>Designed a Book List App to add the details of our favourite books at one place.</p>
+                    <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
                     <a href='https://nivi327.github.io/CitySearchApp/' target='_blank'>
                         <img src={CityLookUpImg} alt="city_search" />
                         <a>City Search</a>
                     </a>
-                    <p>We can search the places in India and their latitudes and longitudes as well using the JSON format.</p>
+                    <p>Designed a website to search for the cities in India along with their Latitudes and Lognitues.</p>
+                    <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
                     <a href='https://nivi327.github.io/basic_portfoilo/' target='_blank'>
                         <img src={PortfolioImg} alt="portfolio" />
                         <a>Portfolio</a>
                     </a>
-                    <p>This is a basic portfolio in HTML and CSS.</p>
+                    <p>Designed a portfolio using HTML and CSS.</p>
+                    <p><strong>Skills Used: </strong>HTML, CSS</p>
                 </li>
             </ul>
         </div>
