@@ -45,15 +45,25 @@
     transform: scale(1.02);
 }
 
+.basic ul li img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+
 .basic ul li a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: aqua;
     cursor: pointer;
 }
 
 .basic ul li p {
     font-size: 1.2rem;
+}
+
+.basic ul li p strong {
+    color: aqua;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width:1080px) and (min-width:840px) {
