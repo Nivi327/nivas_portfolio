@@ -17,7 +17,7 @@ const Projects = () => {
                         <img src={FoodImg} alt="FoodOrderApp" />
                         <a>Food Order App</a>
                     </a>
-                    <p>Designed a food ordered website using React Context to order the food the user like by adding it into Cart.</p>
+                    <p>Designed a food ordered app using the concept of React Context with the cart funtionality.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
@@ -25,7 +25,7 @@ const Projects = () => {
                         <img src={TodoImg} alt="TodoApp" />
                         <a>Todo List App</a>
                     </a>
-                    <p>Designed a TODO list app to plan the day perfectly and implemented using Local Storage.</p>
+                    <p>Designed a TODO list app using the Local Storage and to plan our day perfectly.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
@@ -33,7 +33,7 @@ const Projects = () => {
                         <img src={ContactImg} alt="ContactList" />
                         <a>Contact List</a>
                     </a>
-                    <p>Designed a contact list app to add and maintain the contacts of out closet persons.</p>
+                    <p>Designed a contact list app to add and maintain the contacts of our closet persons.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
@@ -49,7 +49,7 @@ const Projects = () => {
                         <img src={CityLookUpImg} alt="city_search" />
                         <a>City Search</a>
                     </a>
-                    <p>Designed a website to search for the cities in India along with their Latitudes and Lognitues.</p>
+                    <p>Designed a website to search for the cities in India along with their Latitudes and Longitueds.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
