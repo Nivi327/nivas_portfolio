@@ -25,7 +25,7 @@ const Navigation = (props) => {
         <div className={classes.mobile}>
             <div className={classes.icon}>
                 <div className={classes.hamburger} onClick={toggleClassList}>
-                    <RxHamburgerMenu className={classes['hamburger-icon']} />
+                    <a><RxHamburgerMenu className={classes['hamburger-icon']} /></a>
                 </div>
             </div>
             <div className={isVisible? classes['show-mobile-content']: classes['hide-mobile-content']}>
