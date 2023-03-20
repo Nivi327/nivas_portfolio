@@ -59,7 +59,7 @@ const Navigation = (props) => {
                 <span className={classes.span2}>A MERN Stack Developer</span>
             </div>
             <div className={classes.links}>
-                <NavLink to='/about-me' exact style={({ isActive }) => isActive ? activeStyle : undefined}>About Me</NavLink>
+                <NavLink to='/about-me' style={({ isActive }) => isActive ? activeStyle : undefined}>About Me</NavLink>
                 <NavLink to='/my-skills' style={({ isActive }) => isActive ? activeStyle : undefined}>My Skills</NavLink>
                 <NavLink to='/projects' style={({ isActive }) => isActive ? activeStyle : undefined}>Projects</NavLink>
                 <NavLink to='/contact-me' style={({ isActive }) => isActive ? activeStyle : undefined}>Contact Me</NavLink>
