@@ -19,7 +19,7 @@ const Projects = () => {
                         <a>Weather Application</a>
                     </a>
                     <p>Designed a food ordered app using the concept of React Context with the cart funtionality.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                    <p><strong>Skills Used: </strong>ReactJs, React Context, HTML, CSS</p>
                 </li>
                 <li>
                     <a href='https://food-order-app-ruby-seven.vercel.app/' target='_blank'>
