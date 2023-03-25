@@ -5,6 +5,7 @@ import ContactImg from './../../project_images/contact_list.png';
 import BooksImg from './../../project_images/boook_list.png';
 import CityLookUpImg from './../../project_images/city_look_up.png';
 import PortfolioImg from './../../project_images/basic_portfolio.png';
+import WeatherApp from './../../project_images/weather-app.png';
 
 
 const Projects = () => {
@@ -12,6 +13,14 @@ const Projects = () => {
         <h2 className={classes['good-view']}>*Click on the project names to view my projects*</h2>
         <div className={classes.basic}>
             <ul>
+                <li>
+                    <a href='https://weather-app-khaki-rho.vercel.app/' target='_blank'>
+                        <img src={WeatherApp} alt="FoodOrderApp" />
+                        <a>Weather Application</a>
+                    </a>
+                    <p>Designed a food ordered app using the concept of React Context with the cart funtionality.</p>
+                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                </li>
                 <li>
                     <a href='https://food-order-app-ruby-seven.vercel.app/' target='_blank'>
                         <img src={FoodImg} alt="FoodOrderApp" />
