@@ -18,15 +18,15 @@ const Projects = () => {
                         <img src={WeatherApp} alt="FoodOrderApp" />
                         <a>Weather Application</a>
                     </a>
-                    <p>Designed a food ordered app using the concept of React Context with the cart funtionality.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, React Context, HTML, CSS</p>
+                    <p>Developed a web application, using an API, that displays the weather status of a city based on the user input.</p>
+                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
                     <a href='https://food-order-app-ruby-seven.vercel.app/' target='_blank'>
                         <img src={FoodImg} alt="FoodOrderApp" />
                         <a>Food Order App</a>
                     </a>
-                    <p>Designed a food ordered app using the concept of React Context with the cart funtionality.</p>
+                    <p>Developed a food order application which allows the user to add the desired food items to the cart and ordering them.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
@@ -34,7 +34,7 @@ const Projects = () => {
                         <img src={TodoImg} alt="TodoApp" />
                         <a>Todo List App</a>
                     </a>
-                    <p>Designed a TODO list app using the Local Storage and to plan our day perfectly.</p>
+                    <p>Developed a simple Todo application, to keep track of the daily activities from time to time.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
@@ -42,23 +42,23 @@ const Projects = () => {
                         <img src={ContactImg} alt="ContactList" />
                         <a>Contact List</a>
                     </a>
-                    <p>Designed a contact list app to add and maintain the contacts of our closet persons.</p>
+                    <p>Created a contact list application which allows the user to add the details of a person to the list.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
                     <a href='https://nivi327.github.io/BookListApp/' target='_blank'>
                         <img src={BooksImg} alt="BooksList" />
-                        <a>Book List App</a>
+                        <a>Book List Application</a>
                     </a>
-                    <p>Designed a Book List App to add the details of our favourite books at one place.</p>
+                    <p>Designed a Book List Application that allows user to add all the favourite books at one place.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
                     <a href='https://nivi327.github.io/CitySearchApp/' target='_blank'>
                         <img src={CityLookUpImg} alt="city_search" />
-                        <a>City Search</a>
+                        <a>City Search Application</a>
                     </a>
-                    <p>Designed a website to search for the Latitudes and Longitudes of the cities in India.</p>
+                    <p>Designed a City Search Application that allows user to search for the desired city in India to know the location of that city.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
                 <li>
