@@ -6,6 +6,7 @@ import BooksImg from './../../project_images/boook_list.png';
 import CityLookUpImg from './../../project_images/city_look_up.png';
 import PortfolioImg from './../../project_images/basic_portfolio.png';
 import WeatherApp from './../../project_images/weather-app.png';
+import SnakeGame from './../../project_images/snake_game.png';
 
 
 const Projects = () => {
@@ -27,6 +28,14 @@ const Projects = () => {
                         <a>Food Order App</a>
                     </a>
                     <p>Developed a food order application which allows the user to add the desired food items to the cart and ordering them.</p>
+                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                </li>
+                <li>
+                    <a href='https://nivi327.github.io/snake-game/' target='_blank'>
+                        <img src={SnakeGame} alt="TodoApp" />
+                        <a>Snake Game</a>
+                    </a>
+                    <p>Designed a snake game, a time pass and famous game to play in free time.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
