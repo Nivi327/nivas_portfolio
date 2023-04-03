@@ -36,7 +36,7 @@ const Projects = () => {
                         <a>Snake Game</a>
                     </a>
                     <p>Designed a snake game, a time pass and famous game to play in free time.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                    <p><strong>Skills Used: </strong>HTML, CSS, JavaScript</p>
                 </li>
                 <li>
                     <a href='https://to-do-app-rust-five.vercel.app/' target='_blank'>
