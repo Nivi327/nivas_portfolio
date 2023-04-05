@@ -35,7 +35,7 @@ const Projects = () => {
                         <img src={SnakeGame} alt="TodoApp" />
                         <a>Snake Game</a>
                     </a>
-                    <p>Designed a snake game, a time pass and famous game to play in free time.</p>
+                    <p>Created the popular snake game, that we always choose to play in our free time.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, JavaScript</p>
                 </li>
                 <li>
@@ -77,7 +77,7 @@ const Projects = () => {
                     </a>
                     <p>Designed a portfolio using HTML and CSS.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS</p>
-                </li>
+                </li> 
             </ul>
         </div>
     </div>
