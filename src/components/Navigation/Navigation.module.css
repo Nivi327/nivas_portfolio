@@ -144,12 +144,12 @@ a span {
     text-decoration: none;
 }
 
-.icons .icon2 {
+.icons .icon {
     color: rgb(119, 119, 119);
     cursor: pointer;
 }
 
-.icons .icon2:hover {
+.icons .icon:hover {
     color: aqua;
 }
 
