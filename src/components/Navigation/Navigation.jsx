@@ -43,9 +43,9 @@ const Navigation = (props) => {
                     <NavLink to='/contact-me' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>Contact Me</NavLink>
                 </div>
                 <div className={classes.icons}>
-                    <a href="https://www.linkedin.com/in/nivas-bodapati-455443219/" target="_blank"><GrLinkedin className={classes.icon} /></a>
-                    <a href="https://github.com/Nivi327" target="_blank"><AiOutlineGithub className={classes.icon} /></a>
-                    <a href="https://wa.me/+917075665909" target="_blank"><AiOutlineWhatsApp className={classes.icon} /></a>
+                    <a href="https://www.linkedin.com/in/nivas-bodapati-455443219/" target="_blank"><GrLinkedin className={classes.icon2} /></a>
+                    <a href="https://github.com/Nivi327" target="_blank"><AiOutlineGithub className={classes.icon2} /></a>
+                    <a href="https://wa.me/+917075665909" target="_blank"><AiOutlineWhatsApp className={classes.icon2} /></a>
                 </div>
             </div>
         </div>

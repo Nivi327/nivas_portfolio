@@ -11,7 +11,6 @@ import SnakeGame from './../../project_images/snake_game.png';
 
 const Projects = () => {
     return <div className={classes.projects}>
-        <h2 className={classes['good-view']}>*Click on the project names to view my projects*</h2>
         <div className={classes.basic}>
             <ul>
                 <li>
