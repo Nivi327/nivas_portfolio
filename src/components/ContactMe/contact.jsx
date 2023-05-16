@@ -56,7 +56,7 @@ const Contact = () => {
             }, 3000);
         }
         else {
-            emailjs.sendForm('service_portfolio', 'template_ljmxpt4', e.target, 'pLKp295GbvzAIxp6a')
+            emailjs.sendForm('service_portfolio', 'template_ljmxpt4', e.target, 'mIplpD7zIvbealkM0')
                 .then((result) => {
                     setSent(true)
                     setInterval(() => {
