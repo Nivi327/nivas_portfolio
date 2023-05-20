@@ -7,6 +7,7 @@ import CityLookUpImg from './../../project_images/city_look_up.png';
 import PortfolioImg from './../../project_images/basic_portfolio.png';
 import WeatherApp from './../../project_images/weather-app.png';
 import SnakeGame from './../../project_images/snake_game.png';
+import SortingVisualizer from './../../project_images/sorting-visualizer.png';
 
 
 const Projects = () => {
@@ -19,6 +20,14 @@ const Projects = () => {
                         <a>Weather Application</a>
                     </a>
                     <p>Developed a web application, using an API, that displays the weather status of a city based on the user input.</p>
+                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                </li>
+                <li>
+                    <a href='https://sorting-visualizer-nivi327.vercel.app/' target='_blank'>
+                        <img src={SortingVisualizer} alt="FoodOrderApp" />
+                        <a>Sorting Visualizer</a>
+                    </a>
+                    <p>Developed a web application to give the users knowledge about the sorting algorithms using animations and sound effects along with code and the time complexities of each algorithm.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
@@ -69,14 +78,6 @@ const Projects = () => {
                     <p>Designed a City Search Application that allows user to search for the desired city in India to know the location of that city.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
                 </li>
-                <li>
-                    <a href='https://nivi327.github.io/basic_portfoilo/' target='_blank'>
-                        <img src={PortfolioImg} alt="portfolio" />
-                        <a>Portfolio</a>
-                    </a>
-                    <p>Designed a portfolio using HTML and CSS.</p>
-                    <p><strong>Skills Used: </strong>HTML, CSS</p>
-                </li> 
             </ul>
         </div>
     </div>
