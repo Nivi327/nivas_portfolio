@@ -4,10 +4,9 @@ import TodoImg from './../../project_images/todo_app.png';
 import ContactImg from './../../project_images/contact_list.png';
 import BooksImg from './../../project_images/boook_list.png';
 import CityLookUpImg from './../../project_images/city_look_up.png';
-import PortfolioImg from './../../project_images/basic_portfolio.png';
 import WeatherApp from './../../project_images/weather-app.png';
 import SnakeGame from './../../project_images/snake_game.png';
-import SortingVisualizer from './../../project_images/sorting-visualizer.png';
+import AlgoVisualizer from './../../project_images/algo-visualizer.png';
 
 
 const Projects = () => {
@@ -19,15 +18,15 @@ const Projects = () => {
                         <img src={WeatherApp} alt="FoodOrderApp" />
                         <a>Weather Application</a>
                     </a>
-                    <p>Developed a web application, using an API, that displays the weather status of a city based on the user input.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                    <p>Developed a web application, using an API, that displays the weather status of a city for every hour of the current day based on the user input.</p>
+                    <p><strong>Skills Used: </strong>ReactJs, RestAPI, HTML, CSS</p>
                 </li>
                 <li>
-                    <a href='https://sorting-visualizer-nivi327.vercel.app/' target='_blank'>
-                        <img src={SortingVisualizer} alt="FoodOrderApp" />
+                    <a href='https://algo-visualizer-three.vercel.app/' target='_blank'>
+                        <img src={AlgoVisualizer} alt="Algorithm Visualizer" />
                         <a>Sorting Visualizer</a>
                     </a>
-                    <p>Developed a web application to give the users knowledge about the sorting algorithms using animations and sound effects along with code and the time complexities of each algorithm.</p>
+                    <p>Developed a web application that gives the user a deep understanding about how the algorithms like sorting, searching, seive etc works, with the help of different array sizes at different speeds based on the users interest.</p>
                     <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
                 </li>
                 <li>
@@ -36,7 +35,7 @@ const Projects = () => {
                         <a>Food Order App</a>
                     </a>
                     <p>Developed a food order application which allows the user to add the desired food items to the cart and ordering them.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                    <p><strong>Skills Used: </strong>ReactJs, Context, HTML, CSS</p>
                 </li>
                 <li>
                     <a href='https://nivi327.github.io/snake-game/' target='_blank'>
