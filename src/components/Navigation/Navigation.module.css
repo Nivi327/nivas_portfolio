@@ -167,6 +167,10 @@ a span {
         margin-bottom: 2%;
     }
 
+    /* .mobile .img a {
+        margin-left: 1rem;
+    } */
+
     .show-mobile-content .img .dp {
         width: 20%;
     }

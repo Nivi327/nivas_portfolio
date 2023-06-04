@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 import classes from './about.module.css';
+import Footer from '../Footer/Footer';
+
+import {TfiEmail} from 'react-icons/tfi';
+import {BsGithub, BsLinkedin} from 'react-icons/bs';
 
 const About = () => {
-    return <div className={classes.about}>
+    return <><div className={classes.about}>
         <span className={classes.heading}>About Me</span>
         <p>
             I am a MERN Stack Developer located in AndhraPradesh, India.
@@ -24,6 +28,17 @@ const About = () => {
             To reach me out or To give a review about My Portfolio, You can send me quick mail here: <Link to='/contact-me'>Contact Me!</Link>
         </p>
     </div>
+    <div className={classes.footer}>
+            <div className={classes.copyrights}>
+                Copyright &copy; 2023 All Rights Reserved by <a className='nivas-bodapati' href='https://nivas-portfolio.vercel.app'>Nivas Bodapati</a>
+            </div>
+            <div className={classes.icons}>
+                <a href="mailto:nivasbodapati.abc@gmail.com"><TfiEmail className={classes.icon} /></a>
+                <a href="https://github.com/Nivi327"><BsGithub className={classes.icon} /></a>
+                <a href="https://www.linkedin.com/in/nivas-bodapati-455443219"><BsLinkedin className={classes.icon} /></a>
+            </div>
+        </div>
+    </>
 };
 
 export default About;

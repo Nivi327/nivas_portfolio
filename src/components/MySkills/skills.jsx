@@ -1,11 +1,15 @@
+import Footer from '../Footer/Footer';
 import classes from './skills.module.css';
 import { Link } from 'react-router-dom';
+
+import {TfiEmail} from 'react-icons/tfi';
+import {BsGithub, BsLinkedin} from 'react-icons/bs';
 
 const Skills = () => {
     return <>
         <p style={{ color: 'gray', fontSize: '1.3rem', marginLeft: '25px', marginRight: '25px', marginTop: '2.5rem' }}>
             Due to a profound interest in the algorithm implementations and emerging trending technologies. I had taken a step forward to learn the beautiful algorithms in Machine Learning, AI etc.. As a part of this step, I started learning the Web Development and 
-            started creating many projects and learnt the following skills till now and will try to learn the skills that are needed to achieve my goal which is creating an algorithm on my own.
+            started creating some projects and learnt the following skills till now and will try to learn the skills that are needed to achieve my goal which is creating an algorithm on my own.
             <br />Found My Skills Inseresting, You can visit my projects here: <Link to='/projects'>My Projects</Link>
             <br />More Skills can be added Soon....
         </p>
@@ -42,6 +46,16 @@ const Skills = () => {
                     <li>Vercel</li>
                     <li>FireBase</li>
                 </ul>
+            </div>
+        </div>
+        <div className={classes.footer}>
+            <div className={classes.copyrights}>
+                Copyright &copy; 2023 All Rights Reserved by <a className='nivas-bodapati' href='https://nivas-portfolio.vercel.app'>Nivas Bodapati</a>
+            </div>
+            <div className={classes.icons}>
+                <a href="mailto:nivasbodapati.abc@gmail.com"><TfiEmail className={classes.icon} /></a>
+                <a href="https://github.com/Nivi327"><BsGithub className={classes.icon} /></a>
+                <a href="https://www.linkedin.com/in/nivas-bodapati-455443219"><BsLinkedin className={classes.icon} /></a>
             </div>
         </div>
     </>

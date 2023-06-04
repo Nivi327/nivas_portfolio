@@ -2,6 +2,9 @@ import classes from './contact.module.css';
 import emailjs from 'emailjs-com';
 import { useRef, useState } from 'react';
 
+import {TfiEmail} from 'react-icons/tfi';
+import {BsGithub, BsLinkedin} from 'react-icons/bs';
+
 const Contact = () => {
     const [sent, setSent] = useState(false);
     const [error, setError] = useState({ err: false, text: "Email not sent. Please try sending email to nivasbodapati.abc@gmail.com" });
@@ -35,7 +38,7 @@ const Contact = () => {
                 })
             }, 3000);
         }
-        else if(details.subject.length === 0) {
+        else if (details.subject.length === 0) {
             setError(() => {
                 return { err: true, text: "Subject is required" };
             })
@@ -45,7 +48,7 @@ const Contact = () => {
                 })
             }, 3000);
         }
-        else if(details.message.length === 0) {
+        else if (details.message.length === 0) {
             setError(() => {
                 return { err: true, text: "Message is required" };
             })
@@ -76,7 +79,7 @@ const Contact = () => {
                 });
         }
     }
-    return <div className={classes.contact}>
+    return <><div className={classes.contact}>
         <div className={`${classes.sent} ${sent ? classes.show : classes.hide}`}>
             <p>You mail has been recieved. Thanks for contacting me.</p>
         </div>
@@ -97,6 +100,17 @@ const Contact = () => {
             <button type="submit">Send A Mail!</button>
         </form>
     </div>
+        <div className={classes.footer}>
+            <div className={classes.copyrights}>
+                Copyright &copy; 2023 All Rights Reserved by <a className='nivas-bodapati' href='https://nivas-portfolio.vercel.app'>Nivas Bodapati</a>
+            </div>
+            <div className={classes.icons}>
+                <a href="mailto:nivasbodapati.abc@gmail.com"><TfiEmail className={classes.icon} /></a>
+                <a href="https://github.com/Nivi327"><BsGithub className={classes.icon} /></a>
+                <a href="https://www.linkedin.com/in/nivas-bodapati-455443219"><BsLinkedin className={classes.icon} /></a>
+            </div>
+        </div>
+    </>
 };
 
 export default Contact;

@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 
+import {TfiEmail} from 'react-icons/tfi';
+import {BsGithub, BsLinkedin} from 'react-icons/bs';
+
 import classes from './projects.module.css';
 import FoodImg from './../../project_images/food_order_app.png';
 import TodoImg from './../../project_images/todo_app.png';
@@ -12,8 +15,8 @@ import AlgoVisualizer from './../../project_images/algo-visualizer.png';
 
 
 const Projects = () => {
-    return <div className={classes.projects}>
-        <p style={{color: 'gray', fontSize: '1.3rem', marginLeft: '25px', marginRight: '25px', marginTop:'2.5rem'}}>
+    return <><div className={classes.projects}>
+        <p style={{ color: 'gray', fontSize: '1.3rem', marginLeft: '25px', marginRight: '25px', marginTop: '2.5rem' }}>
             Due to the passion of learning the new and continuosly emerging technologies, I started working with the Web Development and made some projects that will help me out in my day to day life, also while learning the DataStructures and Algorithms I have tried to implement them and made some interesting visualizations that helps me and my friends to understand them easily.
             Visit my projects and take a look at them. If you like my projects, don't forget to give a review.
 
@@ -89,6 +92,17 @@ const Projects = () => {
             </ul>
         </div>
     </div>
+        <div className={classes.footer}>
+            <div className={classes.copyrights}>
+                Copyright &copy; 2023 All Rights Reserved by <a className='nivas-bodapati' href='https://nivas-portfolio.vercel.app'>Nivas Bodapati</a>
+            </div>
+            <div className={classes.icons}>
+                <a href="mailto:nivasbodapati.abc@gmail.com"><TfiEmail className={classes.icon} /></a>
+                <a href="https://github.com/Nivi327"><BsGithub className={classes.icon} /></a>
+                <a href="https://www.linkedin.com/in/nivas-bodapati-455443219"><BsLinkedin className={classes.icon} /></a>
+            </div>
+        </div>
+    </>
 };
 
 export default Projects;
