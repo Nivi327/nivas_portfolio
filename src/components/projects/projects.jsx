@@ -36,10 +36,10 @@ const Projects = () => {
                 <li>
                     <a href='https://algo-visualizer-three.vercel.app/' target='_blank'>
                         <img src={AlgoVisualizer} alt="Algorithm Visualizer" />
-                        <a>Sorting Visualizer</a>
+                        <a>Algorithm Visualizer</a>
                     </a>
                     <p>Developed a web application that gives the user a deep understanding about how the algorithms like sorting, searching, seive etc works, with the help of different array sizes at different speeds based on the users interest.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS</p>
+                    <p><strong>Skills Used: </strong>ReactJs, HTML, CSS, BootStrap</p>
                 </li>
                 <li>
                     <a href='https://food-order-app-ruby-seven.vercel.app/' target='_blank'>
