@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import {TfiEmail} from 'react-icons/tfi';
 import {BsGithub, BsLinkedin} from 'react-icons/bs';
 
-import Resume from './../../resume/NIVAS BODAPATI_NEW (05-04-2023)_removed.pdf';
+import Resume from './../../resume/NIVAS BODAPATI_NEW (10-06-2023).pdf';
 
 const Home = () => {
     return <div className={classes['home-content']}><div className={classes.home}>
