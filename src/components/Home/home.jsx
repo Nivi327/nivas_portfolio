@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import {TfiEmail} from 'react-icons/tfi';
 import {BsGithub, BsLinkedin} from 'react-icons/bs';
 
-import Resume from './../../resume/NIVAS BODAPATI_NEW (10-06-2023).pdf';
+import Resume from './../../resume/NIVAS BODAPATI_NEW (23-06-2023).pdf';
 
 const Home = () => {
     return <div className={classes['home-content']}><div className={classes.home}>
@@ -22,7 +22,7 @@ const Home = () => {
             />
         </span>
         <div className={classes.buttons}>
-            <span className={classes['contact-me']}><Link to="/contact-me">Contact Me!</Link></span>
+            <span className={classes['contact-me']}><Link to="/contact-me">Let's Connect!</Link></span>
             <form method="get" action={Resume}>
                 <button type="submit" className={classes['contact-me']}>My Resume</button>
             </form>
