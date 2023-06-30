@@ -22,7 +22,7 @@ function App() {
         <Route path='/projects' element={<Projects />}/>
         <Route path='/contact-me' element={<Contact />}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
       </div>
     </div>
     </BrowserRouter>
