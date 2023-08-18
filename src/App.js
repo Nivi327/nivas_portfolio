@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import About from './components/AboutMe/about';
 import Skills from './components/MySkills/skills';
-import Projects from './components/projects/projects';
+import Projects from './components/projects/projects.jsx';
 import Contact from './components/ContactMe/contact';
 import Home from './components/Home/home';
 import Footer from './components/Footer/Footer';

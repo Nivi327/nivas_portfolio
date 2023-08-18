@@ -1,18 +1,23 @@
 import { Link } from 'react-router-dom';
 
-import {TfiEmail} from 'react-icons/tfi';
-import {BsGithub, BsLinkedin} from 'react-icons/bs';
+import Projects_Details from './projects.json';
 
 import classes from './projects.module.css';
+
+import TicTacToe from './../../project_images/tictactoe-multiplayer.png';
+import WeatherApp from './../../project_images/weather-app.png';
+import AlgoVisualizer from './../../project_images/algo-visualizer.png';
+import HuffmannEncodeDecode from './../../project_images/huffman_encode_decode.png';
 import FoodImg from './../../project_images/food_order_app.png';
+import SnakeGame from './../../project_images/snake_game.png';
 import TodoImg from './../../project_images/todo_app.png';
 import ContactImg from './../../project_images/contact_list.png';
 import BooksImg from './../../project_images/boook_list.png';
 import CityLookUpImg from './../../project_images/city_look_up.png';
-import WeatherApp from './../../project_images/weather-app.png';
-import SnakeGame from './../../project_images/snake_game.png';
-import AlgoVisualizer from './../../project_images/algo-visualizer.png';
 
+const images_arr = [TicTacToe, WeatherApp, AlgoVisualizer, HuffmannEncodeDecode, FoodImg, SnakeGame, TodoImg, ContactImg, BooksImg, CityLookUpImg];
+
+console.log(Projects_Details);
 
 const Projects = () => {
     return <><div className={classes.projects}>
@@ -25,13 +30,24 @@ const Projects = () => {
         </p>
         <div className={classes.basic}>
             <ul>
-                <li>
+                {Projects_Details.map((ele, idx) => {
+                    console.log(idx);
+                    return <li key={idx}>
+                    <a href={ele['href']} target='_blank'>
+                        <img src={idx < images_arr.length ? images_arr[idx]: undefined} alt={ele['title']} />
+                        <a>{ele['title']}</a>
+                    </a>
+                    <p>{ele['description']}</p>
+                    <p><strong>Skills Used: </strong>{ele['skills']}</p>
+                </li>
+                })}
+                {/* <li>
                     <a href='https://weather-app-khaki-rho.vercel.app/' target='_blank'>
                         <img src={WeatherApp} alt="FoodOrderApp" />
                         <a>Weather Application</a>
                     </a>
                     <p>Developed a web application, using an API, that displays the weather status of a city for every hour of the current day based on the user input.</p>
-                    <p><strong>Skills Used: </strong>ReactJs, RestAPI, HTML, CSS</p>
+                    <p><strong>Skills Used: </strong>ReactJs, ReactContext, RestAPI, HTML, CSS</p>
                 </li>
                 <li>
                     <a href='https://algo-visualizer-three.vercel.app/' target='_blank'>
@@ -88,7 +104,7 @@ const Projects = () => {
                     </a>
                     <p>Designed a City Search Application that allows user to search for the desired city in India to know the location of that city.</p>
                     <p><strong>Skills Used: </strong>HTML, CSS, Bootstrap</p>
-                </li>
+                </li> */}
             </ul>
         </div>
     </div>

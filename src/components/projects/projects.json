@@ -1,0 +1,62 @@
+[
+    {
+        "title": "TicTacToe Multiplayer App",
+        "href": "https://multiplayer-tictactoe-cyan.vercel.app/",
+        "description": "Created and Developed a TICTACTOE multiplayer application, which allows two players to play TIC TAC TOE game online from any where.",
+        "skills": "REactJs, NodeJs, Socket.io, HTML, CSS"
+    },
+    {
+        "title": "Weather Application",
+        "href": "https://weather-app-khaki-rho.vercel.app/",
+        "description": "Developed a web application, using an API, that displays the weather status of a city for every hour of the current day based on the user input.",
+        "skills": "ReactJs, ReactContext, RestAPI, HTML, CSS"
+    },
+    {
+        "title": "Algorithm Visualizer",
+        "href": "https://algo-visualizer-three.vercel.app/",
+        "description": "Developed a web application that gives the user a deep understanding about how the algorithms like sorting, searching, seive etc works, with the help of different array sizes at different speeds based on the users interest.",
+        "skills": "ReactJs, DSA, HTML, CSS, BootStrap"
+    },
+    {
+        "title": "TextFile Compressor and Decompressor",
+        "href": "https://huffman-encoder-decoder.vercel.app/",
+        "description": "Developed a web application, that compresses the text file using Huffmann Encoding and Decoding which was implemented using Min Heap",
+        "skills": "ReactJs, DSA, HTML, CSS"
+    },
+    {
+        "title": "Food Order App",
+        "href": "https://food-order-app-ruby-seven.vercel.app/",
+        "description": "Developed a food order application which allows the user to add the desired food items to the cart and ordering them.",
+        "skills": "ReactJs, ReactContext, HTML, CSS"
+    },
+    {
+        "title": "Snake Game",
+        "href": "https://nivi327.github.io/snake-game/",
+        "description": "Created the popular snake game, that we always choose to play in our free time.",
+        "skills": "HTML, CSS, JavaScript"
+    },
+    {
+        "title": "Todo List App",
+        "href": "https://to-do-app-rust-five.vercel.app/",
+        "description": "Developed a simple Todo application, to keep track of the daily activities from time to time.",
+        "skills": "ReactJs, HTML, CSS"
+    }, 
+    {
+        "title": "Contact List App",
+        "href": "https://nivi327.github.io/ContactListFiltering/",
+        "description": "Created a contact list application which allows the user to add to the list and search the details of a person in the list.",
+        "skills":"HTML, CSS, BootStrap"
+    }, 
+    {
+        "title": "Book List Application",
+        "href": "https://nivi327.github.io/BookListApp/",
+        "description": "Designed a Book List Application that allows user to add all the favourite books at one place.",
+        "skills": "HTML, CSS, Bootstrap"
+    },
+    {
+        "title": "City Search Application",
+        "href": "https://nivi327.github.io/CitySearchApp/",
+        "description": "Designed a City Search Application that allows user to search for the desired city in India to know the location of that city.",
+        "skills": "HTML, CSS, Bootstrap"
+    }
+]
