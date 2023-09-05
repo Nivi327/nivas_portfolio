@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import classes from './Navigation.module.css';
 
-import DP from './../../images/DP1.jpg';
+// import DP from './../../images/DP1.jpg';
+import PASSPORT from './../../images/my_recent_photo.jpeg';
 
 import { Link, NavLink } from 'react-router-dom';
 import { GrLinkedin } from 'react-icons/gr';
@@ -18,20 +19,23 @@ const Navigation = (props) => {
     }
 
     const toggleClassList = () => {
-        setIsVisible(prevState => {return !prevState})
+        setIsVisible(prevState => { return !prevState })
     }
 
     return <>
         <div className={classes.mobile}>
             <div className={classes.icon}>
+                <div className={classes.logo}>
+
+                </div>
                 <div className={classes.hamburger} onClick={toggleClassList}>
-                    <a><RxHamburgerMenu className={classes['hamburger-icon']} /></a>
+                    <Link><RxHamburgerMenu className={classes['hamburger-icon']} /></Link>
                 </div>
             </div>
-            <div className={isVisible? classes['show-mobile-content']: classes['hide-mobile-content']}>
+            <div className={isVisible ? classes['show-mobile-content'] : classes['hide-mobile-content']}>
                 <div className={classes.img}>
                     <Link to='/' onClick={toggleClassList}>
-                        <img src={DP} className={classes.dp} />
+                        <img src={PASSPORT} className={classes.dp} />
                         <span>Nivas</span>
                     </Link>
                     <span className={classes.span2}>A MERN Stack Developer</span>
@@ -40,6 +44,7 @@ const Navigation = (props) => {
                     <NavLink to='/about-me' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>About Me</NavLink>
                     <NavLink to='/my-skills' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>My Skills</NavLink>
                     <NavLink to='/projects' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>Projects</NavLink>
+                    <NavLink to='/certificates' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>Certificates</NavLink>
                     <NavLink to='/contact-me' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>Contact Me</NavLink>
                 </div>
                 <div className={classes.icons}>
@@ -52,7 +57,7 @@ const Navigation = (props) => {
         <div className={classes.navigation}>
             <div className={classes.img}>
                 <Link to='/'>
-                    <img src={DP} className={classes.dp} />
+                    <img src={PASSPORT} className={classes.dp} />
                     <span>Nivas</span>
                 </Link>
                 <span className={classes.span2}>A MERN Stack Developer</span>
@@ -61,6 +66,7 @@ const Navigation = (props) => {
                 <NavLink to='/about-me' style={({ isActive }) => isActive ? activeStyle : undefined}>About Me</NavLink>
                 <NavLink to='/my-skills' style={({ isActive }) => isActive ? activeStyle : undefined}>My Skills</NavLink>
                 <NavLink to='/projects' style={({ isActive }) => isActive ? activeStyle : undefined}>Projects</NavLink>
+                <NavLink to='/certificates' style={({ isActive }) => isActive ? activeStyle : undefined} onClick={toggleClassList}>Certificates</NavLink>
                 <NavLink to='/contact-me' style={({ isActive }) => isActive ? activeStyle : undefined}>Contact Me</NavLink>
             </div>
             <div className={classes.icons}>

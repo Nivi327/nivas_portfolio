@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import About from './components/AboutMe/about';
 import Skills from './components/MySkills/skills';
+import Certificates from './components/Certificates/Certificates.jsx';
 import Projects from './components/projects/projects.jsx';
 import Contact from './components/ContactMe/contact';
 import Home from './components/Home/home';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about-me' element={<About />}/>
         <Route path='/my-skills' element={<Skills />}/>
         <Route path='/projects' element={<Projects />}/>
+        <Route path='/certificates' element={<Certificates />}/>
         <Route path='/contact-me' element={<Contact />}/>
       </Routes>
       <Footer />

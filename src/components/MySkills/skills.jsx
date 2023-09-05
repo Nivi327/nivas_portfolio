@@ -7,7 +7,7 @@ import {BsGithub, BsLinkedin} from 'react-icons/bs';
 
 const Skills = () => {
     return <>
-        <p style={{ color: 'gray', fontSize: '1.3rem', marginLeft: '25px', marginRight: '25px', marginTop: '2.5rem' }}>
+        <p style={{ color: '#B2B2B2', fontSize: '1.3rem', marginLeft: '25px', marginRight: '25px', marginTop: '2.5rem' }}>
             Due to a profound interest in the algorithm implementations and emerging trending technologies. I had taken a step forward to learn the beautiful algorithms in Machine Learning, AI etc.. As a part of this step, I started learning the Web Development and 
             started creating some projects and learnt the following skills till now and will try to learn the skills that are needed to achieve my goal which is creating an algorithm on my own.
             <br />Found My Skills Inseresting, You can visit my projects here: <Link to='/projects'>My Projects</Link>

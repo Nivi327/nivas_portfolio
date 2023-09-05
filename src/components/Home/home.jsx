@@ -13,7 +13,7 @@ const Home = () => {
         <span className={classes.name}>I'm Nivas Bodapati, I'm a</span>
         <span style={{ color: 'white', fontSize: '2.4rem' }}>
             <Typewriter
-                words={['Web Developer', 'Tech Enthusiastic', 'MERN Stack Developer', 'B.Tech Student', 'LifeLong Learner']}
+                words={['MERN Stack Developer', 'Aspiring Software Engineer', 'Tech Enthusiastic', 'B.Tech Student', 'LifeLong Learner']}
                 loop={0}
                 cursor
                 typeSpeed={40}

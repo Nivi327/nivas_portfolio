@@ -1,9 +1,9 @@
 .footer {
-    color: rgba(221, 221, 221, 0.738);
+    color: #EAEAEA;
     position: relative;
     margin-top: 14rem;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     background: transparent;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@
 .footer a {
     text-decoration: none;
     cursor: pointer;
-    color: rgba(221, 221, 221, 0.738);
+    color: #EAEAEA;
 }
 
 .footer .icons {
@@ -27,4 +27,16 @@
     gap: 2rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    .footer {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .footer .icons {
+        font-size: 1.2rem;
+    }
 }

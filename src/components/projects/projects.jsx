@@ -5,6 +5,7 @@ import Projects_Details from './projects.json';
 import classes from './projects.module.css';
 
 import TicTacToe from './../../project_images/tictactoe-multiplayer.png';
+import CrudAuth from './../../project_images/crud-auth-node-react.png';
 import WeatherApp from './../../project_images/weather-app.png';
 import AlgoVisualizer from './../../project_images/algo-visualizer.png';
 import HuffmannEncodeDecode from './../../project_images/huffman_encode_decode.png';
@@ -15,14 +16,14 @@ import ContactImg from './../../project_images/contact_list.png';
 import BooksImg from './../../project_images/boook_list.png';
 import CityLookUpImg from './../../project_images/city_look_up.png';
 
-const images_arr = [TicTacToe, WeatherApp, AlgoVisualizer, HuffmannEncodeDecode, FoodImg, SnakeGame, TodoImg, ContactImg, BooksImg, CityLookUpImg];
+const images_arr = [TicTacToe, CrudAuth, WeatherApp, AlgoVisualizer, HuffmannEncodeDecode, FoodImg, SnakeGame, TodoImg, ContactImg, BooksImg, CityLookUpImg];
 
-console.log(Projects_Details);
+// console.log(Projects_Details);
 
 const Projects = () => {
     return <><div className={classes.projects}>
-        <p style={{ color: 'gray', fontSize: '1.3rem', marginLeft: '25px', marginRight: '25px', marginTop: '2.5rem' }}>
-            Due to the passion of learning the new and continuosly emerging technologies, I started working with the Web Development and made some projects that will help me out in my day to day life, also while learning the DataStructures and Algorithms I have tried to implement them and made some interesting visualizations that helps me and my friends to understand them easily.
+        <p style={{ color: '#B2B2B2', fontSize: '1.3rem', marginLeft: '40px', marginRight: '40px', marginTop: '2.5rem' }}>
+            Due to the passion of learning the new and continuosly emerging technologies, I started working on the Web Development and made some interesting projects that will help us out in my day to day life, also while learning the DataStructures and Algorithms I have tried to implement them and made some interesting visualizations that helps the person to understand them easily.
             Visit my projects and take a look at them. If you like my projects, don't forget to give a review.
 
             <br />Found my projects Inseresting, You can contact me here: <Link to='/contact-me'>Contact Me</Link>

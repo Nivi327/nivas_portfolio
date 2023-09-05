@@ -3,7 +3,13 @@
         "title": "TicTacToe Multiplayer App",
         "href": "https://multiplayer-tictactoe-cyan.vercel.app/",
         "description": "Created and Developed a TICTACTOE multiplayer application, which allows two players to play TIC TAC TOE game online from any where.",
-        "skills": "REactJs, NodeJs, Socket.io, HTML, CSS"
+        "skills": "ReactJs, NodeJs, Socket.io, HTML, CSS"
+    },
+    {
+        "title": "Admin App",
+        "href": "https://crud-op-client.vercel.app/",
+        "description": "Created and Developed an Admin App, which allows the admin to perform CRUD operations on posts with the help of RestAPI nodejs server and MySQL DB to save the data.",
+        "skills": "ReactJs, NodeJs, MySQL, RestAPI, HTML, CSS"
     },
     {
         "title": "Weather Application",
