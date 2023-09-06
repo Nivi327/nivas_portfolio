@@ -96,7 +96,7 @@ const Contact = () => {
                 <input type="email" name="email" id="email" placeholder='Enter Your Email' autoComplete='off' onChange={(e) => setDetails((prevDetails) => { return { ...prevDetails, email: e.target.value } })} />
             </div>
             <input type="text" name="subject" id="subject" placeholder='Subject' className={classes.subject} autoComplete='off' onChange={(e) => setDetails((prevDetails) => { return { ...prevDetails, subject: e.target.value } })} />
-            <textarea name="message" id="message" cols="30" rows="5" placeholder="Message" autoComplete='off' onChange={(e) => setDetails((prevDetails) => { return { ...prevDetails, message: e.target.value } })}></textarea>
+            <textarea name="message" id="message" cols="30" rows="2" placeholder="Message" autoComplete='off' onChange={(e) => setDetails((prevDetails) => { return { ...prevDetails, message: e.target.value } })}></textarea>
             <button type="submit">Send A Mail!</button>
         </form>
     </div>
