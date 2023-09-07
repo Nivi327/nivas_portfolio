@@ -10,13 +10,14 @@ import WeatherApp from './../../project_images/weather-app.png';
 import AlgoVisualizer from './../../project_images/algo-visualizer.png';
 import HuffmannEncodeDecode from './../../project_images/huffman_encode_decode.png';
 import FoodImg from './../../project_images/food_order_app.png';
+import Crypto from './../../project_images/cryptocurrency-api.png';
 import SnakeGame from './../../project_images/snake_game.png';
 import TodoImg from './../../project_images/todo_app.png';
 import ContactImg from './../../project_images/contact_list.png';
 import BooksImg from './../../project_images/boook_list.png';
 import CityLookUpImg from './../../project_images/city_look_up.png';
 
-const images_arr = [TicTacToe, CrudAuth, WeatherApp, AlgoVisualizer, HuffmannEncodeDecode, FoodImg, SnakeGame, TodoImg, ContactImg, BooksImg, CityLookUpImg];
+const images_arr = [TicTacToe, CrudAuth, WeatherApp, AlgoVisualizer, HuffmannEncodeDecode, FoodImg, Crypto, SnakeGame, TodoImg, ContactImg, BooksImg, CityLookUpImg];
 
 // console.log(Projects_Details);
 

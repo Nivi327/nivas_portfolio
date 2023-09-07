@@ -36,9 +36,15 @@
         "skills": "ReactJs, ReactContext, HTML, CSS"
     },
     {
+        "title": "Crypto Currency Viewer",
+        "href": "https://crytocurrencyapi-react.web.app/",
+        "description": "Developed a web application, using an API, that displays the details of different crypto currencies in which the user can search their desired currency.",
+        "skills": "ReactJs, RestAPI, HTML, CSS"
+    },
+    {
         "title": "Snake Game",
         "href": "https://nivi327.github.io/snake-game/",
-        "description": "Created the popular snake game, that we always choose to play in our free time.",
+        "description": "Developed the popular snake game, that we always choose to play in our free time.",
         "skills": "HTML, CSS, JavaScript"
     },
     {
