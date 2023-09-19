@@ -2,10 +2,7 @@ import { Link } from 'react-router-dom';
 import classes from './home.module.css';
 import { Typewriter } from 'react-simple-typewriter';
 
-import { TfiEmail } from 'react-icons/tfi';
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
-
-import Resume from './../../resume/Nivas_Bodapati_Resume(06-09-2023).pdf';
+import Resume from './../../resume/NIVAS_BODAPATI_RESUME(19-09-2023).pdf';
 
 const Home = () => {
     return <div className={classes['home-content']}><div className={classes.home}>

@@ -22,7 +22,7 @@ const About = () => {
             Here are some of my projects, Take a look at them and make sure to give a review of my projects: <Link to='/projects'>My Projects</Link>
         </p>
         <p>
-            I would like to spend my free time in beach with friends. My Hobbies are Watching Movies, Collecting Pens. I like to Cook, Code and Make a new recipe out of it.
+            I would like to spend my free time in beach with friends. My Hobbies are Watching Movies, Cooking. I like to Cook, Code and Make a new recipe out of it.
         </p>
         <p>
             To reach me out or To give a review about My Portfolio, You can send me quick mail here: <Link to='/contact-me'>Contact Me!</Link>
